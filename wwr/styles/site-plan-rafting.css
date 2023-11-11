@@ -6,8 +6,8 @@
     --accent1-color: #6610F2;
     --accent2-color: #E14127;
     
-    --heading-font: '______', kanit;
-    --paragraph-font: '_____', kanit;
+    --heading-font: kanit;
+    --paragraph-font: kanit;
 
     --nav-background-color: #F17105;
     --nav-link-color: #6610F2;
