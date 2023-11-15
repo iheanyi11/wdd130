@@ -31,12 +31,13 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -50,12 +51,13 @@ main img {
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
-aside .box {
-    position: relative;
-    top: 47px;
-    left: 150px;
+aside h2 {
+    position: absolute;
+    bottom: 225px;
+    left: 110px;
 }
 
 footer{
@@ -64,7 +66,7 @@ footer{
     text-align: center;
 }
 
-/* class selectors */
+/* Class Selectors */
 .box {
     margin: 1rem;
     border:1px solid rgba(0,0,0, 0.2);
