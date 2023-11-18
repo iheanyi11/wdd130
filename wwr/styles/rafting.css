@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+
+:root {
+    --primary-color: orange;
+    --secondary-color: #F17105;
+    --accent1-color: #6610F2;
+    --accent2-color: #E14127;
+    
+    --heading-font: 'kanit', sans-serif;
+    --paragraph-font: 'kanit', sans-serif;
+
+    --nav-background-color: #F17105;
+    --nav-link-color: #6610F2;
+    --nav-hover-link-color: #E6C229;
+    --nav-hover-background-color: black;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: #E14127;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+.hero {
+    position:relative;
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    grid-row: 1/2;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: auto;
+    margin-top: -35rem;
+    border:2px solid grey;
+    background-color: rgba(0, 0, 0, 0.5);
+ 
+
+}
+.come-out{
+    margin-top: 9rem;
+}
+#background{
+    position: relative;
+    width: 80%;
+    height: 250px;
+    background-color: rgba(0, 0, 255, 0.5);
+    margin-top: -23rem;
+   margin-left: 10%;
+    
+}
+.hero article {
+    position: absolute;
+}
+.hero article h2{
+    margin-top: -15rem;
+    margin-right: 350px;
+    float: left;
+    color: white;
+    text-align: left;
+    margin-left: 200px;
+    padding:20px;   
+}
+.hero article img {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin-top: -12rem;
+    margin-right: 100px;
+    
+}
+
+.hero article p {
+    margin-top: -11rem;
+    margin-right: 250px;
+    float: left;
+    color: white;
+    text-align: left;
+    margin-left: 90px;
+    padding:20px;
+    
+}
+
