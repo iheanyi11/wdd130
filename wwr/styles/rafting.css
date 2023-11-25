@@ -15,9 +15,31 @@
     --nav-hover-background-color: black;
 }
 
-header nav a {
-    text-decoration: none;
+header {
+    display: grid;
+    background-color: aqua;
+    position: relative;
 }
+
+header img {
+    width: 200px;
+    height: 150px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 2 / 6;
+    grid-row: 2/2;
+    text-align: center;
+}
+
+ header nav a {
+    display: flex;
+    text-decoration: none; 
+    margin-top: -5rem;
+    border: 1px solid black;
+} 
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -103,3 +125,14 @@ body {
     
 }
 
+footer {
+    display: grid;
+
+}
+
+footer nav {
+    display: flex;
+    height: 50px;
+    width: 20%;
+    float: right;
+}
