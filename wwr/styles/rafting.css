@@ -17,13 +17,14 @@
 
 header {
     display: grid;
-    background-color: aqua;
+    background-color: aquamarine;
     position: relative;
 }
 
 header img {
     width: 200px;
     height: 150px;
+    padding: 1rem;
 }
 
 header nav {
@@ -38,12 +39,16 @@ header nav {
     display: flex;
     text-decoration: none; 
     margin-top: -5rem;
-    border: 1px solid black;
+    color: black; 
 } 
 
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: #E14127;
+}
+
+main section img {
+    width: 250px;
 }
 
 footer nav a {
@@ -54,6 +59,7 @@ body {
     max-width: 960px;
     margin: auto;
     padding: 10px;
+    font-family: var(--paragraph-font);
 }
 
 .hero {
@@ -126,13 +132,15 @@ body {
 }
 
 footer {
-    display: grid;
-
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 footer nav {
     display: flex;
-    height: 50px;
-    width: 20%;
-    float: right;
+}
+
+footer img {
+    width: 50px;
 }
