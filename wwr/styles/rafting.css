@@ -43,8 +43,68 @@ header nav {
 } 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: #E14127;
+    font-family: Kanit;
+    color: navy;
+}
+
+.employee-profile {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display:block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 main section img {
@@ -57,9 +117,10 @@ footer nav a {
 
 body {
     max-width: 960px;
+    line-height: 1.5;
     margin: auto;
-    padding: 10px;
-    font-family: var(--paragraph-font);
+    padding: 20px;
+    font-family: Kanit;
 }
 
 .hero {
@@ -142,5 +203,11 @@ footer nav {
 }
 
 footer img {
+    
     width: 50px;
+}
+
+.wire_frame {
+    margin-right: 80px;
+    margin-top: 20px;
 }
