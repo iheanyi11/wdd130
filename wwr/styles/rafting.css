@@ -93,8 +93,9 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+input[type="submit"] {
+    color: white;
+    background-color: navy;
 }
 
 h1 {
