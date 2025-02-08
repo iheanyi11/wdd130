@@ -18,7 +18,7 @@
   </header>
 
   <section id="assignment">
-    <h2>Assignment</h2>
+    <h2>Assignment 1</h2>
     <ul>
       <li><strong>Machine Learning:</strong> Machine learning is a subset of artificial intelligence where systems learn from data without explicit programming.</li>
       <li><strong>Artificial Intelligence:</strong> AI refers to machines designed to simulate human intelligence, including learning and problem-solving.</li>
@@ -26,6 +26,66 @@
       <li><strong>Unsupervised Learning:</strong> A machine learning model that finds hidden patterns in unlabeled data.</li>
       <li><strong>Deep Learning:</strong> A type of machine learning using neural networks to process large, complex data sets.</li>
     </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>Assignment 2</h2>
+    <h4>Create a problem that can be solved by identifying the issues,  
+      debugging and isolating or solving the problem. 
+      You are to document the procedure on how you go about it. 
+      Got instant how puzzles works,
+      it is a problem on its own and needs solving to achieve it aims and goals. </h4>
+      <br>
+    <ul>
+      <li><strong>Problem:</strong>A local restaurant recently launched a website with a contact form where customers can send inquiries. However, the restaurant owner reports that they are not receiving any emails from the form.</li>
+    </ul>
+    <br>
+    <h5>Solution:</h5>
+    <p><strong>Step 1:</strong> Identify the Issue
+      The expected behavior: When a user submits the form, an email should be sent to the restaurant’s email address.
+      The actual behavior: Users see a success message, but the restaurant never receives the email.</p>
+    <p><strong>Step 2</strong>: Debugging and Isolating the Problem
+      Check the Frontend (HTML & JavaScript)
+      Verify the form structure in contact.html:
+      Ensure that the form has the correct action and method attributes.
+      Check JavaScript for form submission errors
+      Open the browser console (F12 → Console tab) and test submitting the form.
+      If there are JavaScript errors, they would show here.
+      In this case, there are no JavaScript errors.
+      Check the Backend (Server & Email Logic)
+      Verify the route handling the form submission
+      Check the email sending function 
+      The email service might be blocked due to incorrect credentials.
+      Environment variables (EMAIL_USER and EMAIL_PASS) may not be set correctly.
+      Check the Server Logs for Errors
+      Run the server in debug mode. The error confirms that the email credentials are incorrect.
+      Check Environment Variables
+      View the .env file. Issue found: The email credentials are incorrect.
+
+      Update the credentials in .env. Fixed the credentials.
+
+      Retest the Contact Form
+      Restart the server:
+      Submit a test form on the website.
+      Success! The restaurant now receives emails from the contact form.</p>
+    <p><strong>Final Documentation Summary</strong></p>
+      <p>✅<strong>Problem:</strong> Contact form emails were not being sent.</p>
+      <strong><p>✅ Process:</p></strong>
+      
+      <p>1. Checked the frontend form structure (✅ No issues).</p>
+      <p>2. Checked the JavaScript console (✅ No errors).</p>
+      <p>3. Debugged the backend email-sending logic (🔍 Found incorrect credentials).</p>
+      <p>4. Updated email service credentials (✅ Fixed issue).</p>
+      <p>5. Retested the form (🎉 Emails are now being received).</p>
+
+      <br>
+
+      <strong><p>Conclusion:</p></strong>
+        <p>This problem was solved by systematic debugging—identifying the issue, 
+          isolating the problem area, and methodically testing and fixing the cause. 
+          This process applies to any kind of website bug, 
+          making it a crucial problem-solving technique in web development! 🚀</p>
+     
   </section>
 
   <footer>
